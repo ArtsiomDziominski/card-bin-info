@@ -1,10 +1,19 @@
 {
-  "name": "${PROJECT_NAME}",
-  "version": "1.0.0",
+  "name": "card-bin-info",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
-  "private": true
+  "author": "Artsiom Dziominski",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArtsiomDziominski/card-bin-info"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArtsiomDziominski/mypackage/issues"
+  }
 }
