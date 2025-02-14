@@ -5,7 +5,6 @@
   "main": "dist/index.js",
   "types": "dist/index.ts",
   "scripts": {
-    "test": "node test.ts",
     "build": "tsc --declaration"
   },
   "devDependencies": {

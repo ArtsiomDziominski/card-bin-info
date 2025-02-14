@@ -1,5 +1,5 @@
-import { bins } from "./data/bins"
-import { banks } from "./data/banks"
+import bins from "./data/bins"
+import banks from "./data/banks"
 
 function nameBank(bin: string): any {
     return bins?.[bin];
