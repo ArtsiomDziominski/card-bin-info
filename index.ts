@@ -3,30 +3,31 @@ import banks from "./data/banks"
 
 interface IBank {
     [key: string]: {
-        bankAlias: ['ae-adcb', 'ADCB', 'adcb.com'],
-        bankName: 'ADCB',
-        bankLocalName: 'ADCB',
-        bankColor: '#cd2026',
-        bankColors: ['#273239'],
-        bankCountry: 'ae',
-        bankSite: 'https://www.adcb.com/en/about-us/',
-        bankPhone: '+9712 6962222',
-        formBackgroundColor: '#cd2026',
-        formBackgroundColors: ['#cd2026', '#f3030d'],
-        formBackgroundLightness: 'dark',
-        formTextColor: '#ffffff',
-        formLogoScheme: 'inverted',
-        formBorderColor: "#ffffff"
+        bankAlias: string[],
+        bankName: string,
+        bankLocalName: string,
+        bankColor: string,
+        bankColors: string[],
+        bankCountry: string,
+        bankSite: string,
+        bankPhone: string,
+        formBackgroundColor: string,
+        formBackgroundColors: string[],
+        formBackgroundLightness: string,
+        formTextColor: string,
+        formLogoScheme: string,
+        formBorderColor: string
     }
 }
 
 function nameBank(bin: string): string | undefined {
-    return bins?.[bin];
+    const keyBank = bins?.[bin];
+    return banks?.[keyBank]?.bankName;
 }
 
 function bank(bin: string): IBank | undefined {
-    const nameBank = bins?.[bin];
-    return banks?.[nameBank];
+    const keyBank = bins?.[bin];
+    return banks?.[keyBank];
 }
 
 export default {
