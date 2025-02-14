@@ -15,7 +15,7 @@
     "type": "git",
     "url": "https://github.com/ArtsiomDziominski/card-bin-info"
   },
-  "keywords": [],
+  "keywords": ["card-bin-info", "card-bin", "bin", "binfo", "bins", "binlist", "bin-list", "cardinfo", "check", "checker", "card-bin-list", "check"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ArtsiomDziominski/mypackage/issues"
