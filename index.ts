@@ -10,7 +10,7 @@ function bank(bin: string): string | undefined {
     return banks?.[nameBank];
 }
 
-export const cardBinInfo = {
+export default {
     nameBank,
     bank,
 }
