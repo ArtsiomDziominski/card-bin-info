@@ -1,6 +1,22 @@
 export default {
+    "ru-tinkoff": {
+        "bankAlias": ["ru-tinkoff", "Tinkoff Bank", "Тинькофф Банк", "Tinkoff", "Т Банк", "ТБанк"],
+        "bankName": "T Bank",
+        "bankLocalName": "Т Банк",
+        "bankColor": "#1d1d1b",
+        "bankColors": ["#1d1d1b", "#f5e543"],
+        "bankCountry": "ru",
+        "bankSite": "https://www.tinkoff.ru/",
+        "bankPhone": "8 800 555-77-78",
+        "formBackgroundColor": "#333333",
+        "formBackgroundColors": ["#444444", "#222222"],
+        "formBackgroundLightness": "dark",
+        "formTextColor": "#ffffff",
+        "formLogoScheme": "inverted",
+        "formBorderColor": "#ffffff"
+    },
     "ru-sberbank": {
-        "bankAlias": ["ru-sberbank", "Sberbank", "Сбербанк", "Sber"],
+        "bankAlias": ["ru-sberbank", "Sberbank", "Сбербанк", "Sber", "Сбер", "Сбер Банк"],
         "bankName": "Sberbank",
         "bankLocalName": "Сбербанк",
         "bankColor": "#1a9f29",
@@ -208,7 +224,7 @@ export default {
         "formBorderColor": "#ffffff"
     },
     "ru-alfa": {
-        "bankAlias": ["ru-alfa", "Alfa-Bank", "Альфа-Банк", "Alfa"],
+        "bankAlias": ["ru-alfa", "Alfa-Bank", "Альфа-Банк", "Альфа Банк", "АльфаБанк", "Альфа", "Alfa"],
         "bankName": "Alfa-Bank",
         "bankLocalName": "Альфа-Банк",
         "bankColor": "#f80000",
@@ -602,22 +618,6 @@ export default {
         "bankPhone": "8 800 100-24-24",
         "formBackgroundColor": "#0a2973",
         "formBackgroundColors": ["#0a2973", "#031649"],
-        "formBackgroundLightness": "dark",
-        "formTextColor": "#ffffff",
-        "formLogoScheme": "inverted",
-        "formBorderColor": "#ffffff"
-    },
-    "ru-tinkoff": {
-        "bankAlias": ["ru-tinkoff", "Tinkoff Bank", "Тинькофф Банк", "Tinkoff"],
-        "bankName": "Tinkoff Bank",
-        "bankLocalName": "Тинькофф Банк",
-        "bankColor": "#1d1d1b",
-        "bankColors": ["#1d1d1b", "#f5e543"],
-        "bankCountry": "ru",
-        "bankSite": "https://www.tinkoff.ru/",
-        "bankPhone": "8 800 555-77-78",
-        "formBackgroundColor": "#333333",
-        "formBackgroundColors": ["#444444", "#222222"],
         "formBackgroundLightness": "dark",
         "formTextColor": "#ffffff",
         "formLogoScheme": "inverted",
